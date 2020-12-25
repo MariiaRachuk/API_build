@@ -16,7 +16,7 @@ import static io.restassured.config.EncoderConfig.encoderConfig;
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 
 public class WebApi {
-	static String token = "sl.AoG7GJkLB_foXN18BubJxJpLStQ3eNhZYyz7lzgyvlZw2OolEIxmLemgB9Uhw95IWZZ81Kr1Cxvgy-9y95zHikO-6hFwgbL4c4bnQJ4MkRqv92z44kDVzk-_4vjBUepMVk_PYSk";
+	static String token = "bOYeay-jkwQAAAAAAAAAAQFLZDc7GcV_wv2lgvAcOj9_QVjM_Eyte1eSE45q9Ot5";
 	
 	@Order(1)
     @Test
