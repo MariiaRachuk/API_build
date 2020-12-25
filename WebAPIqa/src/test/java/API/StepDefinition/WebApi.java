@@ -1,4 +1,4 @@
-package StepDefinition;
+package API.StepDefinition;
 
 import io.restassured.RestAssured;
 import org.junit.jupiter.api.Test;
@@ -22,7 +22,7 @@ public class WebApi {
     @Test
     public void uploaFile() {
         RestAssured.config = RestAssured.config().encoderConfig(encoderConfig().appendDefaultContentCharsetToContentTypeIfUndefined(false));
-        File file = new File("src/test/resources/scream.jpg");
+        File file = new File("src/test/scream.jpg");
         String apiArgs = "{\"mode\":\"add\",\"autorename\":true,\"mute\":false,\"path\":\"/scream.jpg\"}";
 
         given()
